@@ -1,0 +1,347 @@
+JFDML JFormDesigner: "8.2.3.0.386" Java: "17.0.10" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {seq t {space :::p, par t {comp panel4:::::x, seq {comp panel2:::p:297:p, space :::p, comp panel1:::p::p, par l {seq l {space s:::p, comp panel3:::p::p}, seq l {space :p:63:p, par l {comp button2:::p:111:p, comp button1:::p:113:p}}}, space :0:0:x}}, space :::p}}"
+			"$verticalGroup": "par l {seq {space :::x, par l {seq {comp panel3:::p::p, space :p:82:p, comp button1:::p:40:p, space :p:105:p, comp button2:::p:40:p, space :0:113:x}, comp panel1:::::x, comp panel2::::630:x}, space :::p, comp panel4:::p::p, space :p:37:p}}"
+		} ) {
+			name: "this"
+			"minimumSize": new java.awt.Dimension( 1200, 800 )
+			"maximumSize": sfield com.jformdesigner.model.FormObject NULL_VALUE
+			"preferredSize": new java.awt.Dimension( 1300, 900 )
+			"background": new java.awt.Color( 0, 153, 255, 255 )
+			"foreground": new java.awt.Color( 0, 102, 255, 255 )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+				"$horizontalGroup": "par l {seq t {space ::28:x, comp label1:::p:640:p, space :p:23:p}}"
+				"$verticalGroup": "par l {seq l {space :p:57:p, comp label1:::p:480:p, space ::93:x}}"
+			} ) {
+				name: "panel1"
+				"background": &Color0 new java.awt.Color( 2, 44, 84, 255 )
+				"maximumSize": new java.awt.Dimension( 666666, 666666 )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label1"
+					"horizontalAlignment": 0
+				} )
+			} )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+				"$horizontalGroup": "par l {seq l {space :14:14:p, par l:::p {seq t {comp label31:::p:64:p, space :::x, comp label33:::p:169:p}, seq l {comp label21:::p:64:p, space :p:26:p, comp textField12:::::x}, comp label28::l:p:134:p, seq l {comp label4:::p:64:p, space :p:26:p, comp label23:::::x}, seq l {comp label7:::p:64:p, space :p:26:p, comp label22:::p:169:p}, seq l {comp label20:::p:64:p, space :p:26:p, comp textField11:::::x}, seq l {comp label19:::p:64:p, space :p:26:p, comp textField10:::::x}, seq l {comp label18:::p:64:p, space :p:26:p, comp textField9:::::x}, seq l {par l {comp label17::l:p:64:p, comp label16::l:p:64:p}, space :p:26:p, par l:::p {comp textField7::::169:x, comp textField8:::::x}}, seq t {comp label30:::p:64:p, space :::x, comp label32:::p:169:p}, seq l {par l {comp label12::l:p:64:p, comp label13::l:p:64:p, comp label14::l:p:64:p, comp label15::l:p:64:p}, par l {seq {space :p:26:p, par t:::p {comp label26::l::169:x, comp label25::l:::x, comp label24:::::x}}, seq t {space :::p, comp label27:::p:169:p}}}, comp label29::l:p:130:p}, space ::24:x}}"
+				"$verticalGroup": "par l {seq l {space :::p, comp label28:::p:28:p, space :p:2:p, par l:::p {comp label22::::28:x, comp label7::::28:x}, space :::p, par b {comp label4::b:p:30:p, comp label23::b:p:28:p}, space :::p, par b {comp label12::b:p:30:p, comp label24::b:p:28:p}, space :::p, par b {comp label13::b:p:30:p, comp label25::b:p:28:p}, space :::p, par b {comp label26::b:p:28:p, comp label14::b:p:30:p}, space :::p, par b {comp label15::b:p:30:p, comp label27::b:p:28:p}, space :::p, par b {comp label30::b:p:30:p, comp label32::b:p:28:p}, space :::p, par t {comp label33:::p:28:p, comp label31:::p:30:p}, space ::47:x, comp label29:::p:28:p, space :::p, par b {comp label16::b:p:28:p, comp textField7::b:p::p}, space :p:5:p, par b {comp label17::b:p:30:p, comp textField8::b:p::p}, space :::p, par b {comp label18::b:p:30:p, comp textField9::b:p::p}, space :::p, par b {comp label19::b:p:30:p, comp textField10::b:p::p}, space :::p, par b {comp label20::b:p:30:p, comp textField11::b:p::p}, space :::p, par b {comp label21::b:p:30:p, comp textField12::b:p::p}, space :p:13:p}}"
+			} ) {
+				name: "panel2"
+				"preferredSize": new java.awt.Dimension( 200, 200 )
+				"background": new java.awt.Color( 2, 44, 84, 255 )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label7"
+					"text": "直径1"
+					"horizontalAlignment": 0
+					"opaque": true
+					"font": &Font0 new java.awt.Font( "微软雅黑", 1, 16 )
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label4"
+					"text": "直径2"
+					"horizontalAlignment": 0
+					"opaque": true
+					"font": &Font1 new java.awt.Font( "微软雅黑", 1, 16 )
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label12"
+					"text": "宽度1"
+					"horizontalAlignment": 0
+					"opaque": true
+					"font": &Font2 new java.awt.Font( "微软雅黑", 1, 16 )
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label13"
+					"text": "宽度2"
+					"horizontalAlignment": 0
+					"opaque": true
+					"font": &Font3 new java.awt.Font( "微软雅黑", 1, 16 )
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label14"
+					"text": "高度1"
+					"horizontalAlignment": 0
+					"opaque": true
+					"font": &Font4 new java.awt.Font( "微软雅黑", 1, 16 )
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label15"
+					"text": "高度2"
+					"horizontalAlignment": 0
+					"opaque": true
+					"font": &Font5 new java.awt.Font( "微软雅黑", 1, 16 )
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label16"
+					"text": "直径1"
+					"horizontalAlignment": 0
+					"opaque": true
+					"font": #Font0
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label17"
+					"text": "直径2"
+					"horizontalAlignment": 0
+					"opaque": true
+					"font": #Font1
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label18"
+					"text": "宽度1"
+					"horizontalAlignment": 0
+					"opaque": true
+					"font": #Font2
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label19"
+					"text": "宽度2"
+					"horizontalAlignment": 0
+					"opaque": true
+					"font": #Font3
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label20"
+					"text": "高度1"
+					"horizontalAlignment": 0
+					"opaque": true
+					"font": #Font4
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label21"
+					"text": "高度2"
+					"horizontalAlignment": 0
+					"opaque": true
+					"font": #Font5
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label22"
+					"horizontalAlignment": 0
+					"opaque": true
+					"font": new java.awt.Font( "等线", 1, 16 )
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label23"
+					"horizontalAlignment": 0
+					"opaque": true
+					"font": new java.awt.Font( "等线", 1, 16 )
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label24"
+					"horizontalAlignment": 0
+					"opaque": true
+					"font": new java.awt.Font( "等线", 1, 16 )
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label25"
+					"horizontalAlignment": 0
+					"opaque": true
+					"font": new java.awt.Font( "等线", 1, 16 )
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label26"
+					"horizontalAlignment": 0
+					"opaque": true
+					"font": new java.awt.Font( "等线", 1, 16 )
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label27"
+					"horizontalAlignment": 0
+					"opaque": true
+					"font": new java.awt.Font( "等线", 1, 16 )
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "textField7"
+					"font": new java.awt.Font( "等线", 1, 16 )
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "textField8"
+					"font": new java.awt.Font( "等线", 1, 16 )
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "textField9"
+					"font": new java.awt.Font( "等线", 1, 16 )
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "textField10"
+					"font": new java.awt.Font( "等线", 1, 16 )
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "textField11"
+					"font": new java.awt.Font( "等线", 1, 16 )
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "textField12"
+					"font": new java.awt.Font( "等线", 1, 16 )
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label28"
+					"text": "检测值"
+					"horizontalAlignment": 0
+					"opaque": true
+					"font": #Font0
+					"foreground": new java.awt.Color( 255, 255, 255, 255 )
+					"background": new java.awt.Color( 2, 44, 84, 255 )
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label29"
+					"text": "标准值"
+					"horizontalAlignment": 0
+					"opaque": true
+					"font": #Font0
+					"background": new java.awt.Color( 2, 44, 84, 255 )
+					"foreground": new java.awt.Color( 255, 255, 255, 255 )
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label30"
+					"text": "圆心1"
+					"horizontalAlignment": 0
+					"opaque": true
+					"font": #Font5
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label31"
+					"text": "圆心2"
+					"horizontalAlignment": 0
+					"opaque": true
+					"font": #Font5
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label32"
+					"horizontalAlignment": 0
+					"opaque": true
+					"font": new java.awt.Font( "等线", 1, 16 )
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label33"
+					"horizontalAlignment": 0
+					"opaque": true
+					"font": new java.awt.Font( "等线", 1, 16 )
+				} )
+			} )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+				"$horizontalGroup": "par l {seq {space :p:54:p, par t {comp button4:::p:92:p, comp button3:::p:92:p, comp button5::t:p:92:p}, space ::87:x}, seq t {space :::x, comp button6:::p:51:p, space :p:25:p}}"
+				"$verticalGroup": "par l {seq l {space :::p, comp button6:::p:25:p, space :p:30:p, comp button3:::p:41:p, space :::p, comp button4:::p:40:p, space :::p, comp button5:::p:38:p, space ::58:x}}"
+			} ) {
+				name: "panel3"
+				"background": new java.awt.Color( 2, 44, 84, 255 )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "button3"
+					"text": "模型一"
+					"foreground": new java.awt.Color( 0, 0, 0, 255 )
+					"background": new java.awt.Color( 255, 255, 255, 255 )
+					"font": new java.awt.Font( "微软雅黑", 1, 16 )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "button3MouseClicked", true ) )
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "button4"
+					"text": "模型二"
+					"background": new java.awt.Color( 255, 255, 255, 255 )
+					"foreground": sfield java.awt.Color black
+					"font": new java.awt.Font( "微软雅黑", 1, 16 )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "button4MouseClicked", true ) )
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "button5"
+					"text": "模型三"
+					"foreground": new java.awt.Color( 0, 0, 0, 255 )
+					"background": new java.awt.Color( 255, 255, 255, 255 )
+					"font": new java.awt.Font( "微软雅黑", 1, 16 )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "button5MouseClicked", true ) )
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "button6"
+					"text": "+"
+					"font": new java.awt.Font( "微软雅黑", 1, 20 )
+					"foreground": new java.awt.Color( 255, 255, 255, 255 )
+					"background": new java.awt.Color( 2, 44, 84, 255 )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "button6MouseClicked", true ) )
+				} )
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button2"
+				"text": "文件回看"
+				"foreground": new java.awt.Color( 0, 0, 0, 255 )
+				"background": new java.awt.Color( 255, 255, 255, 255 )
+				"font": new java.awt.Font( "微软雅黑", 1, 16 )
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button1"
+				"text": "开始检测"
+				"foreground": sfield java.awt.Color black
+				"font": new java.awt.Font( "微软雅黑", 1, 16 )
+				"background": new java.awt.Color( 255, 255, 255, 255 )
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "button1MouseClicked", true ) )
+			} )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jgoodies.forms.layout.FormLayout ) {
+				"$columnSpecs": "4dlu, labelcompgap, default, labelcompgap, 12dlu, labelcompgap, default, labelcompgap, 12dlu, labelcompgap, default, labelcompgap, 12dlu, labelcompgap, default, labelcompgap, 12dlu, labelcompgap, default, labelcompgap, 12dlu, labelcompgap, default, labelcompgap, 100dlu"
+				"$rowSpecs": "fill:default"
+			} ) {
+				name: "panel4"
+				"background": #Color0
+				"maximumSize": new java.awt.Dimension( 13426, 33277 )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label2"
+					"font": new java.awt.Font( "微软雅黑", 1, 16 )
+					"horizontalAlignment": 0
+					"opaque": true
+					"icon": new com.jformdesigner.model.SwingIcon( 1, "C:\\Users\\LiuSiHao\\Desktop\\1.png" )
+				}, new FormLayoutConstraints( class com.jgoodies.forms.layout.CellConstraints ) {
+					"gridX": 3
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label3"
+					"horizontalAlignment": 0
+					"font": new java.awt.Font( "微软雅黑", 1, 16 )
+					"doubleBuffered": true
+					"focusable": false
+					"opaque": true
+					"icon": new com.jformdesigner.model.SwingIcon( 1, "C:\\Users\\LiuSiHao\\Desktop\\2.png" )
+				}, new FormLayoutConstraints( class com.jgoodies.forms.layout.CellConstraints ) {
+					"gridX": 7
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label5"
+					"horizontalAlignment": 0
+					"font": new java.awt.Font( "微软雅黑", 1, 16 )
+					"opaque": true
+					"icon": new com.jformdesigner.model.SwingIcon( 1, "C:\\Users\\LiuSiHao\\Desktop\\3.png" )
+				}, new FormLayoutConstraints( class com.jgoodies.forms.layout.CellConstraints ) {
+					"gridX": 11
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label6"
+					"horizontalAlignment": 0
+					"font": new java.awt.Font( "微软雅黑", 1, 16 )
+					"opaque": true
+					"icon": new com.jformdesigner.model.SwingIcon( 1, "C:\\Users\\LiuSiHao\\Desktop\\4.png" )
+				}, new FormLayoutConstraints( class com.jgoodies.forms.layout.CellConstraints ) {
+					"gridX": 15
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label8"
+					"horizontalAlignment": 0
+					"font": new java.awt.Font( "微软雅黑", 1, 16 )
+					"opaque": true
+					"icon": new com.jformdesigner.model.SwingIcon( 1, "C:\\Users\\LiuSiHao\\Desktop\\5.png" )
+				}, new FormLayoutConstraints( class com.jgoodies.forms.layout.CellConstraints ) {
+					"gridX": 19
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label9"
+					"horizontalAlignment": 0
+					"font": new java.awt.Font( "微软雅黑", 1, 16 )
+					"opaque": true
+					"icon": new com.jformdesigner.model.SwingIcon( 1, "C:\\Users\\LiuSiHao\\Desktop\\6.png" )
+				}, new FormLayoutConstraints( class com.jgoodies.forms.layout.CellConstraints ) {
+					"gridX": 23
+				} )
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 100, 35 )
+			"size": new java.awt.Dimension( 1280, 890 )
+		} )
+	}
+}
